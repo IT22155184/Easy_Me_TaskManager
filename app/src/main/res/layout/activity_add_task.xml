@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="12dp"
+    tools:context=".AddTaskActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="9dp"
+        android:text="@string/add_your_task_here"
+        android:textColor="@color/components_1"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@+id/addTaskHeading"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/baseline_add_task_24"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="385dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/addTaskHeading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/blue_border"
+        android:hint="@string/enter_task_title"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="20sp"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="393dp"
+        android:layout_height="591dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/blue_border"
+        android:gravity="top"
+        android:hint="@string/enter_task_description"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

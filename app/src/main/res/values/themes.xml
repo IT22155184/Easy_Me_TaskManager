@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EasyMeTaskManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/components_1</item>
+        <item name="colorPrimaryVariant">@color/components_1</item>
+        <item name="android:statusBarColor">@color/components_1</item>
+    </style>
+
+    <style name="Theme.EasyMeTaskManager" parent="Base.Theme.EasyMeTaskManager" />
+</resources>

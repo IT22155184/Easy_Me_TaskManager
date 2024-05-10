@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Easy Me Task Manager</string>
+    <string name="enter_task_title">Enter Task Title</string>
+    <string name="todo" />
+    <string name="add_your_task_here">Add Your New Task</string>
+    <string name="add_btn">add\n</string>
+    <string name="enter_task_description">Enter Task Description</string>
+</resources>
